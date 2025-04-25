@@ -1,0 +1,538 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "RPI 40 pin to 16 pin converter"
+Date "2021-05-14"
+Rev "1"
+Comp "Lennox International"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4660 2855 5020 2855
+Connection ~ 4660 2855
+Wire Wire Line
+	4660 2950 4660 2855
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60A1A9F1
+P 4660 2950
+F 0 "#FLG02" H 4660 3025 50  0001 C CNN
+F 1 "PWR_FLAG" H 4660 3123 50  0000 C CNN
+F 2 "" H 4660 2950 50  0001 C CNN
+F 3 "~" H 4660 2950 50  0001 C CNN
+	1    4660 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4655 2655 5025 2655
+Connection ~ 4655 2655
+Wire Wire Line
+	4270 2655 4655 2655
+Wire Wire Line
+	4655 2565 4655 2655
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 60A19754
+P 4655 2565
+F 0 "#FLG01" H 4655 2640 50  0001 C CNN
+F 1 "PWR_FLAG" H 4655 2738 50  0000 C CNN
+F 2 "" H 4655 2565 50  0001 C CNN
+F 3 "~" H 4655 2565 50  0001 C CNN
+	1    4655 2565
+	1    0    0    -1  
+$EndComp
+Connection ~ 4270 2655
+Wire Wire Line
+	4270 2560 4270 2655
+$Comp
+L power:VCC #PWR01
+U 1 1 60A17F73
+P 4270 2560
+F 0 "#PWR01" H 4270 2410 50  0001 C CNN
+F 1 "VCC" H 4285 2733 50  0000 C CNN
+F 2 "" H 4270 2560 50  0001 C CNN
+F 3 "" H 4270 2560 50  0001 C CNN
+	1    4270 2560
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4270 2855 4660 2855
+Wire Wire Line
+	4270 3005 4270 2855
+$Comp
+L power:GND #PWR02
+U 1 1 60A16703
+P 4270 3005
+F 0 "#PWR02" H 4270 2755 50  0001 C CNN
+F 1 "GND" H 4275 2832 50  0000 C CNN
+F 2 "" H 4270 3005 50  0001 C CNN
+F 3 "" H 4270 3005 50  0001 C CNN
+	1    4270 3005
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7005 3575
+NoConn ~ 7005 3275
+NoConn ~ 3620 4555
+NoConn ~ 3620 4455
+NoConn ~ 3620 4355
+NoConn ~ 3620 4155
+NoConn ~ 3620 3955
+NoConn ~ 3120 3955
+NoConn ~ 3120 3855
+NoConn ~ 3120 3755
+NoConn ~ 3120 3655
+NoConn ~ 3120 3555
+NoConn ~ 3620 3855
+NoConn ~ 3620 3755
+NoConn ~ 3620 3655
+NoConn ~ 3620 3555
+NoConn ~ 3620 3455
+NoConn ~ 3620 3355
+NoConn ~ 3620 3255
+NoConn ~ 3620 3155
+NoConn ~ 3620 3055
+NoConn ~ 3620 2955
+NoConn ~ 3620 2755
+NoConn ~ 3120 3455
+NoConn ~ 3120 3355
+NoConn ~ 3120 3255
+NoConn ~ 3120 3155
+NoConn ~ 3120 2955
+Connection ~ 7050 3375
+Wire Wire Line
+	7050 3675 7050 3375
+Wire Wire Line
+	7005 3675 7050 3675
+Connection ~ 7050 3075
+Wire Wire Line
+	7050 3375 7050 3075
+Wire Wire Line
+	7005 3375 7050 3375
+Connection ~ 5800 2855
+Wire Wire Line
+	7050 2855 5800 2855
+Wire Wire Line
+	7050 3075 7050 2855
+Wire Wire Line
+	7005 3075 7050 3075
+Connection ~ 5800 3275
+Wire Wire Line
+	5800 3575 5800 3275
+Wire Wire Line
+	6505 3575 5800 3575
+Wire Wire Line
+	5800 3275 6505 3275
+Wire Wire Line
+	5800 2855 5800 3275
+Wire Wire Line
+	5950 3075 6505 3075
+Wire Wire Line
+	5950 2655 5950 3075
+Wire Wire Line
+	3620 2655 4270 2655
+Wire Wire Line
+	6175 3475 6175 3175
+Connection ~ 6175 3475
+Wire Wire Line
+	6505 3475 6175 3475
+Connection ~ 7215 3475
+Wire Wire Line
+	7215 3775 7215 3475
+Wire Wire Line
+	7005 3775 7215 3775
+Connection ~ 7215 3175
+Wire Wire Line
+	7215 3475 7215 3175
+Wire Wire Line
+	7005 3475 7215 3475
+Wire Wire Line
+	7215 3175 7005 3175
+Wire Wire Line
+	7215 2135 7215 3175
+Wire Wire Line
+	2855 2135 5825 2135
+Wire Wire Line
+	2855 2855 2855 2135
+Wire Wire Line
+	3120 2855 2855 2855
+Connection ~ 6175 3175
+Wire Wire Line
+	6175 3775 6175 3475
+Wire Wire Line
+	6505 3775 6175 3775
+Wire Wire Line
+	6175 3175 6505 3175
+Wire Wire Line
+	6175 2200 6175 2375
+Wire Wire Line
+	2915 2200 6175 2200
+Wire Wire Line
+	2915 2755 2915 2200
+Wire Wire Line
+	3120 2755 2915 2755
+Connection ~ 6055 3375
+Wire Wire Line
+	6055 3675 6055 3375
+Wire Wire Line
+	6505 3675 6055 3675
+Wire Wire Line
+	6055 3375 6505 3375
+Wire Wire Line
+	6055 2310 6055 2560
+Wire Wire Line
+	3000 2310 6055 2310
+Wire Wire Line
+	3000 2655 3000 2310
+Wire Wire Line
+	3120 2655 3000 2655
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J2
+U 1 1 609F3539
+P 6705 3375
+F 0 "J2" H 6755 3892 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 6755 3801 50  0000 C CNN
+F 2 "SamacSys_Parts:RHDR16W84P300_2X8_2486X686X944P" H 6705 3375 50  0001 C CNN
+F 3 "~" H 6705 3375 50  0001 C CNN
+	1    6705 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 609EC75F
+P 3320 3555
+F 0 "J1" H 3370 4672 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 3370 4581 50  0000 C CNN
+F 2 "SamacSys_Parts:SSQ-120-XX-YYY-D" H 3320 3555 50  0001 C CNN
+F 3 "~" H 3320 3555 50  0001 C CNN
+	1    3320 3555
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60A3F363
+P 4230 4625
+F 0 "R1" V 4150 4620 50  0000 C CNN
+F 1 "330" V 4230 4630 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4160 4625 50  0001 C CNN
+F 3 "~" H 4230 4625 50  0001 C CNN
+	1    4230 4625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D1
+U 1 1 60A427A5
+P 4670 4625
+F 0 "D1" H 4663 4370 50  0000 C CNN
+F 1 "LED_ALT" H 4663 4461 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 4670 4625 50  0001 C CNN
+F 3 "~" H 4670 4625 50  0001 C CNN
+	1    4670 4625
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D2
+U 1 1 60A4333B
+P 4670 4765
+F 0 "D2" H 4663 4510 50  0000 C CNN
+F 1 "LED_ALT" H 4663 4601 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 4670 4765 50  0001 C CNN
+F 3 "~" H 4670 4765 50  0001 C CNN
+	1    4670 4765
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D3
+U 1 1 60A43696
+P 4675 4910
+F 0 "D3" H 4668 4655 50  0000 C CNN
+F 1 "LED_ALT" H 4668 4746 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 4675 4910 50  0001 C CNN
+F 3 "~" H 4675 4910 50  0001 C CNN
+	1    4675 4910
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D4
+U 1 1 60A43B00
+P 4680 5055
+F 0 "D4" H 4673 4800 50  0000 C CNN
+F 1 "LED_ALT" H 4673 4891 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 4680 5055 50  0001 C CNN
+F 3 "~" H 4680 5055 50  0001 C CNN
+	1    4680 5055
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_ALT D5
+U 1 1 60A43F95
+P 4680 5195
+F 0 "D5" H 4673 4940 50  0000 C CNN
+F 1 "LED_ALT" H 4673 5031 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 4680 5195 50  0001 C CNN
+F 3 "~" H 4680 5195 50  0001 C CNN
+	1    4680 5195
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60A4437D
+P 4230 4765
+F 0 "R2" V 4160 4760 50  0000 C CNN
+F 1 "330" V 4230 4770 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4160 4765 50  0001 C CNN
+F 3 "~" H 4230 4765 50  0001 C CNN
+	1    4230 4765
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60A446F0
+P 4230 4910
+F 0 "R3" V 4160 4905 50  0000 C CNN
+F 1 "330" V 4230 4910 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4160 4910 50  0001 C CNN
+F 3 "~" H 4230 4910 50  0001 C CNN
+	1    4230 4910
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60A44C5F
+P 4230 5055
+F 0 "R4" V 4155 5050 50  0000 C CNN
+F 1 "330" V 4230 5060 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4160 5055 50  0001 C CNN
+F 3 "~" H 4230 5055 50  0001 C CNN
+	1    4230 5055
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60A44F49
+P 4230 5195
+F 0 "R5" V 4160 5190 50  0000 C CNN
+F 1 "330" V 4230 5200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4160 5195 50  0001 C CNN
+F 3 "~" H 4230 5195 50  0001 C CNN
+	1    4230 5195
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3120 4055 2665 4055
+Wire Wire Line
+	2665 4055 2665 5195
+Wire Wire Line
+	2665 5195 4080 5195
+Wire Wire Line
+	3120 4155 2745 4155
+Wire Wire Line
+	2745 4155 2745 5055
+Wire Wire Line
+	2745 5055 4080 5055
+Wire Wire Line
+	3120 4255 2825 4255
+Wire Wire Line
+	2825 4255 2825 4910
+Wire Wire Line
+	2825 4910 4080 4910
+Wire Wire Line
+	3120 4355 2920 4355
+Wire Wire Line
+	2920 4355 2920 4765
+Wire Wire Line
+	2920 4765 4080 4765
+Wire Wire Line
+	3120 4455 3040 4455
+Wire Wire Line
+	3040 4455 3040 4625
+Wire Wire Line
+	3040 4625 4080 4625
+Wire Wire Line
+	4380 4625 4520 4625
+Wire Wire Line
+	4380 4765 4520 4765
+Wire Wire Line
+	4380 4910 4525 4910
+Wire Wire Line
+	4380 5055 4530 5055
+Wire Wire Line
+	4380 5195 4530 5195
+Wire Wire Line
+	4830 5195 5260 5195
+Wire Wire Line
+	5260 5195 5260 5055
+Wire Wire Line
+	5260 4050 3620 4050
+Wire Wire Line
+	3620 4050 3620 4055
+Wire Wire Line
+	4830 5055 5260 5055
+Connection ~ 5260 5055
+Wire Wire Line
+	4825 4910 5135 4910
+Wire Wire Line
+	5135 4910 5135 4765
+Wire Wire Line
+	4820 4765 5135 4765
+Connection ~ 5135 4765
+Wire Wire Line
+	5135 4765 5135 4255
+Wire Wire Line
+	4820 4625 4990 4625
+Wire Wire Line
+	4990 4625 4990 4585
+Wire Wire Line
+	3120 4585 3120 4555
+NoConn ~ 3620 2855
+Wire Wire Line
+	4270 2855 3725 2855
+Wire Wire Line
+	3725 2855 3725 2985
+Wire Wire Line
+	3725 2985 3050 2985
+Wire Wire Line
+	3050 2985 3050 3055
+Wire Wire Line
+	3050 3055 3120 3055
+Connection ~ 4270 2855
+$Comp
+L Connector:TestPoint TP3
+U 1 1 60A67F60
+P 5825 2080
+F 0 "TP3" H 5883 2198 50  0000 L CNN
+F 1 "Pin 5" H 5883 2107 50  0000 L CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 6025 2080 50  0001 C CNN
+F 3 "~" H 6025 2080 50  0001 C CNN
+	1    5825 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 2080 5825 2135
+Connection ~ 5825 2135
+Wire Wire Line
+	5825 2135 7215 2135
+$Comp
+L Connector:TestPoint TP5
+U 1 1 60A6B8B5
+P 6240 2375
+F 0 "TP5" V 6194 2563 50  0000 L CNN
+F 1 "Pin 3" V 6285 2563 50  0000 L CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 6440 2375 50  0001 C CNN
+F 3 "~" H 6440 2375 50  0001 C CNN
+	1    6240 2375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6240 2375 6175 2375
+Connection ~ 6175 2375
+Wire Wire Line
+	6175 2375 6175 3175
+$Comp
+L Connector:TestPoint TP4
+U 1 1 60A6EC3E
+P 5965 2560
+F 0 "TP4" V 6160 2632 50  0000 C CNN
+F 1 "3.3V" V 6069 2632 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 6165 2560 50  0001 C CNN
+F 3 "~" H 6165 2560 50  0001 C CNN
+	1    5965 2560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5965 2560 6055 2560
+Connection ~ 6055 2560
+Wire Wire Line
+	6055 2560 6055 3375
+$Comp
+L Connector:TestPoint TP2
+U 1 1 60A725A2
+P 5025 2610
+F 0 "TP2" H 5083 2728 50  0000 L CNN
+F 1 "5V" H 5083 2637 50  0000 L CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 5225 2610 50  0001 C CNN
+F 3 "~" H 5225 2610 50  0001 C CNN
+	1    5025 2610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 2610 5025 2655
+Connection ~ 5025 2655
+Wire Wire Line
+	5025 2655 5950 2655
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60A75E58
+P 5020 2905
+F 0 "TP1" H 4962 2931 50  0000 R CNN
+F 1 "GND" H 4962 3022 50  0000 R CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 5220 2905 50  0001 C CNN
+F 3 "~" H 5220 2905 50  0001 C CNN
+	1    5020 2905
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5020 2905 5020 2855
+Connection ~ 5020 2855
+Wire Wire Line
+	5020 2855 5800 2855
+Wire Wire Line
+	5260 4050 5260 4215
+$Comp
+L power:GND #PWR0101
+U 1 1 60ABA18E
+P 5410 4215
+F 0 "#PWR0101" H 5410 3965 50  0001 C CNN
+F 1 "GND" V 5415 4087 50  0000 R CNN
+F 2 "" H 5410 4215 50  0001 C CNN
+F 3 "" H 5410 4215 50  0001 C CNN
+	1    5410 4215
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60ABB104
+P 5000 4170
+F 0 "#PWR0102" H 5000 3920 50  0001 C CNN
+F 1 "GND" H 5005 3997 50  0000 C CNN
+F 2 "" H 5000 4170 50  0001 C CNN
+F 3 "" H 5000 4170 50  0001 C CNN
+	1    5000 4170
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60ABBE04
+P 3970 4500
+F 0 "#PWR0103" H 3970 4250 50  0001 C CNN
+F 1 "GND" H 3975 4327 50  0000 C CNN
+F 2 "" H 3970 4500 50  0001 C CNN
+F 3 "" H 3970 4500 50  0001 C CNN
+	1    3970 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5410 4215 5260 4215
+Connection ~ 5260 4215
+Wire Wire Line
+	5000 4170 5000 4255
+Connection ~ 5000 4255
+Wire Wire Line
+	5000 4255 5135 4255
+Wire Wire Line
+	3970 4500 3970 4585
+Connection ~ 3970 4585
+Wire Wire Line
+	3970 4585 4990 4585
+Wire Wire Line
+	3620 4255 5000 4255
+Wire Wire Line
+	5260 4215 5260 5055
+Wire Wire Line
+	3120 4585 3970 4585
+$EndSCHEMATC

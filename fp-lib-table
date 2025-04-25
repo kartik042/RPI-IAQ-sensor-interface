@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "KiCad libraries")(type KiCad)(uri "C:/Users/KXD19/Downloads/KiCad libraries")(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri "C:/Users/KXD19/Downloads/KiCad libraries/SamacSys_Parts.pretty")(options "")(descr ""))
+)
